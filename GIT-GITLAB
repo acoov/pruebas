@@ -1,0 +1,59 @@
+git add <archivo>
+git add .
+git log		q --salir
+
+git branch <nombre_rama>
+
+MERGE CONFLICT
+our change = local
+their change = cambios de fuera
+
+
+DEVELOP-dev
+festure-lo q sea
+bugfix-ese
+hotfix
+
+git commit -m "blablabla#issue"
+git commit -m "asfasdfasa#fix"
+
+git branch -D <rama>
+
+
+git add remote <nombre para remoto> <url> --> de esta manera tienes para subir los cambios en 2 repositorios
+
+*************************************************
+git config --global user.name "danitza98"
+git config --global user.email "danitza98@gmail.com"
+git config --list
+
+
+----------------------------------------------------------------------------------------------------------
+stash es un remoto temporal
+----------------------------------------------------------------------------------------------------------
+
+git branch -v -->todas las ramas q se tienen en el repositorios
+
+git fetch
+git checkout feature-header
+
+----------------------------------------------------------------------------------------------------------
+
+NUNCA EJECUTAR:
+git checkout . -->Borrar cambios y archivos en cabecera ....PIERDE TODA LA REFERENCIA NO HAY VUELTA
+
+----------------------------------------------------------------------------------------------------------
+DESHACER UN COMMIT:
+git reset --soft HEAD~1
+----------------------------------------------------------------------------------------------------------
+AGREGAR UN ISSUE:
+Hacer un pull
+hacer un cambio
+git add *
+git commit -m "agregar mi nombre Fix #1"
+git pull origin master
+git push origin master
+----------------------------------------------------------------------------------------------------------
+
+
+PULL REQUEST
